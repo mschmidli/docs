@@ -6,27 +6,24 @@
 <h1 id="m300---dokumentation-michel-schmidli">M300 - Dokumentation Michel Schmidli</h1>
 <p>Im Modul 300 wurde uns die Arbeit mit Containers und Virtuellen Maschienen näher gebracht.</p>
 <h2 id="auftrag">Auftrag</h2>
-<p>Unser Auftrag war es, verschiedene Services via Vagrant und GitHub zu realisieren. Mit Vagrant kann man mit einem Vagrant-File eine VM erstellen ohne irgendwelche konfigurationen zu machen. Alles befindet sich in diesem File.</p>
+<p>Der Auftrag war es, Services mittels Vagrant und GitHub zu realisieren. Mit Vagrant kann man mit einem Vagrantfile eine VM erstellen ohne irgendwelche konfigurationen zu machen.</p>
 <h2 id="bewertung">Bewertung</h2>
-<p>• Umgebung (Multi VM) funktionsfähig auf eigenem Notebook (Note 4.0)</p>
-<p>• Bestehende VM aus Vagrant Cloud zum laufen bringen (Note 4.5)</p>
-<p>• Eigener Service auf Basis IaC implementieren (Note 5.0 – 5.5)</p>
-<p>• Projekt auf github Ablegen und Dokumentieren (Markdown) (Note 5.5 – 6.0)</p>
+<p>• Umgebung (Multi VM) funktionsfähig auf eigenem Notebook (Note 4.0)<br>
+• Bestehende VM aus Vagrant Cloud zum laufen bringen (Note 4.5)<br>
+• Eigener Service auf Basis IaC implementieren (Note 5.0 – 5.5)<br>
+• Projekt auf github Ablegen und Dokumentieren (Markdown) (Note 5.5 – 6.0)</p>
 <h2 id="vorgehen">Vorgehen</h2>
-<p>Wir arbeiteten nach dem IPERKA system. Wir schauten uns den Auftrag genau an und informierten uns. Anschliessen planten wir unser Vorgehen. Die Vorgehensweise wurde vom Auftragsdokument übernommen, da dort alles genau beschrieben wurde. Wir arbeiteten somit das Skript durch. Wir hatten Startprobleme, da es bei Ramon nicht geklappt hat Vagrant aufzusetzen. Wir lösten dieses Problem am zweiten Modultag, indem wir alles nochmals neu installierten. Nachdem folgte die Arbeit am Skript. Leider verstanden wir nicht ganz alles, was uns zu einem unseren Mitstiften führte, mit welchem wir ein Vagrant-File erstellten.</p>
+<p>Ich habe mir den Auftrag genau angeschaut und informierte mich. Anschliessen planten ich unser Vorgehen. Die Vorgehensweise wurde vom Auftragsdokument übernommen, da dort alles genau beschrieben wurde. Ich arbeitete somit das Skript durch. Ich verstand nicht jede Aufgabe, jedoch konnte ich was ich nicht verstand im Internet nachschlagen.</p>
 <h2 id="github">GITHUB</h2>
-<p>Wir haben uns Konten bei GITHUB erstellt. GITHUB bietet die Möglichkeit Dateien auf einfachem Wege hochzuladen, leicht bearbeitbar und offen zugänglich zu machen.</p>
-<p>Mit Github ist es möglich den Kontakt zu anderen Entwickler auf der ganzen welt zu aufzubauen. Genau auf diesem Wege werden wir auch unsere fertigen Vagrantfiles mit unserem Lehrer kommunizieren.</p>
-<blockquote>
-<p>“GitHub brings together the world’s largest community of developers to discover, share, and build better software.”</p>
-</blockquote>
+<p>Ich haben mein Konto bei GITHUB erstellt. GITHUB bietet die Möglichkeit Dateien auf einfachem Wege hochzuladen, leicht bearbeitbar und offen zugänglich zu machen.</p>
+<p>Mit Github ist es möglich den Kontakt zu anderen Entwickler auf der ganzen Welt zu aufzubauen. Genau auf diesem Wege werde ich auch mein fertige Vagrantfiles mit unserem Lehrer kommunizieren.</p>
 <h2 id="produktive-nutzung">Produktive Nutzung</h2>
-<p>Unsere Umgebung ist darauf aufgebaut, dass man mit wenigen Commands eine ganze VM Umgebung aufsetzen kann, die sich automatisch installiert und Konfiguriert.</p>
+<p>Meine Umgebung ist darauf aufgebaut, dass man mit wenigen Commands eine ganze VM Umgebung aufsetzen kann, die sich automatisch installiert und Konfiguriert.</p>
 <p>Bsp. kann ein Informatiker, der mehrere VMs pro Tag aufsetzten muss sich sehr viel Arbeit, Zeit und Nerven sparen.</p>
 <p>So kann er mit Git Bash in ein Verzeichnis gehen, wo sich ein Vagrant-File befindet. In diesem Verzeichnis kann er ganz einfach den command “vagrant up” ausführen und das Vagrant-File wird ausgeführt.</p>
 <p>In diesem Vagrant-File ist definiert von wo er sich das OS grabben soll, welche konfigurationen er vornehemen soll und wie ist installiert wird.</p>
 <h2 id="eigener-service">Eigener Service</h2>
-<p>Wir haben bei dem Auftrag des eigenen Services zuerst darauf geschaut, dass wir das Vagrantfile überhaupt verstehen. Durch logisches überlegen, konnten wir Anpassungen in diesem File vornehmen.<br>
+<p>Ich haben bei dem Auftrag des eigenen Services zuerst darauf geschaut, dass ich das Vagrantfile überhaupt verstehe. Durch logisches überlegen, konnten ich Anpassungen in diesem File vornehmen.<br>
 Sie sehen gleich mein Vagrantfile bei dem Ubuntu mit einer Firewall Reproxy installiert wird. Die Ports haben ich so abgeändert, dass jegliche Kommunikation von der IP 10.0.2.2 zugelassen wird.<br>
 Außerdem das Protokoll TCP über den Port 80 in jedem Fall zugelassen.<br>
 Um sicherzugehen, dass diese Commands auch ausgeführt werden, führen wir den Command Force ein.</p>
@@ -66,9 +63,14 @@ end
 <p>Die Test-Case sind wie folgendes Beispiel aufgeführt:</p>
 <p>Was wird getestet / was ist zu erwarten / was ist passiert<br>
 Test / Test funktioniert / Test funktioniert</p>
-<p><strong>Erstellung VM</strong> / <em>Nach “Vagrant up” wird das File ausgeführt und die Vm ist in “Virtualbox” sichtbar</em>. / Nach ausführen des Vagrantfiles, wurde die VM in Virtualbox erstellt.</p>
-<p><strong>SSH Verbindung</strong> / <em>Über GitBash kann auf die VM mittels SSH zugegriffen werden</em> / Die Verbindung zu dieser VM ist mit SSH möglich.</p>
-<p><strong>Firewall</strong> / <em>Die Firewall ist im Status “Gestartet”</em>. / Die Firewall ist gestartet.</p>
-<p><strong>Betrieb</strong> / <em>Die Website ist über “localhost:8090” ansprechbar.</em> / Die Website ist über “localhost:8090” ansprechbar.</p>
-<p><strong>Apache</strong> / <em>Apache ist als Prozess sichtbar.</em> / Apache ist als Prozess sichtbar.</p>
+<p><strong>Erstellung VM</strong> / <em>Nach “Vagrant up” wird das File ausgeführt und die Vm ist in “Virtualbox” sichtbar</em>. / Nach ausführen des Vagrantfiles, wurde die VM in Virtualbox erstellt.<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/V_Schmidli.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=V_Schmidli.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
+<p><strong>SSH Verbindung</strong> / <em>Über GitBash kann auf die VM mittels SSH zugegriffen werden</em> / Die Verbindung zu dieser VM ist mit SSH möglich.<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/SSH_Schmidli.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=SSH_Schmidli.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
+<p><strong>Firewall</strong> / <em>Die Firewall ist im Status “Gestartet”</em>. / Die Firewall ist gestartet.<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Firewall_Schmidli.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Firewall_Schmidli.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
+<p><strong>Betrieb</strong> / <em>Die Website ist über “localhost:8090” ansprechbar.</em> / Die Website ist über “localhost:8090” ansprechbar.<br>
+<img src="" alt=""></p>
+<p><strong>Apache</strong> / <em>Apache ist als Prozess sichtbar.</em> / Apache ist als Prozess sichtbar.<br>
+<img src="" alt=""></p>
 
