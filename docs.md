@@ -70,7 +70,7 @@ Test / Test funktioniert / Test funktioniert</p>
 <p><strong>Firewall</strong> / <em>Die Firewall ist im Status “Gestartet”</em>. / Die Firewall ist gestartet.<br>
 <img src="https://perrone.myqnapcloud.com:450/share.cgi/Firewall_Schmidli.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Firewall_Schmidli.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
 <p><strong>Betrieb</strong> / <em>Die Website ist über “localhost:8090” ansprechbar.</em> / Die Website ist über “localhost:8090” ansprechbar.<br>
-<img src="" alt=""></p>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/apache_Schmidli.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=apache_Schmidli.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
 <p><strong>Apache</strong> / <em>Apache ist als Prozess sichtbar.</em> / Apache ist als Prozess sichtbar.<br>
-<img src="" alt=""></p>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Unbenann.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Unbenann.PNG&amp;openfolder=normal&amp;ep=" alt=""></p>
 
