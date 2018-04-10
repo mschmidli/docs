@@ -55,7 +55,7 @@ cat &lt;&lt; EOF &gt; /var/www/html/index.html
 	&lt;body&gt;
 		Test Text
 	&lt;/body&gt;
-	&lt;/html&gt;
+&lt;/html&gt;
 Script
 
 Vagrant.configure("2") do |config|
