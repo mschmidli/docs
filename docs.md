@@ -41,6 +41,17 @@ a2enmod proxy
 a2enmod proxy_html
 a2enmod proxy_http/41
 sed -i '$aServerName localhost' /etc/apache2/apache2.conf
+sudo rm /var/www/html/index.html
+    sudo touch /var/www/html/index.php
+    cat &lt;&lt; EOF &gt; /var/www/html/index.html
+    &lt;!doctype html&gt;
+    &lt;head&gt;
+			Titel - Test        
+    &lt;/head&gt;
+    &lt;body&gt;
+            Dies ist der Test, wlecher aufzeigt, dass das Vagrantfile funktioniert.
+    &lt;/body&gt;
+    &lt;/html&gt;
 service apache2 restart
 cd /etc/apache2/sites-enabled
 wget https://pastebin.com/raw/GbjFC2ii
