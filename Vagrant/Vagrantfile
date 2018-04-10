@@ -15,17 +15,6 @@ service apache2 restart
 cd /etc/apache2/sites-enabled
 wget https://pastebin.com/raw/GbjFC2ii
 cp GbjFC2ii 001-reverseproxy.conf
-sudo rm /var/www/html/index.html
-sudo touch /var/www/html/index.php
-cat << EOF > /var/www/html/index.html
-        <!doctype html>
-        <head>
-				Titel - Test        
-        </head>
-        <body>
-                Dies ist der Test, welcher aufzeigt, dass das Vagrantfile funktioniert.
-        </body>
-        </html>
 Script
 
 Vagrant.configure("2") do |config|
