@@ -11,6 +11,10 @@ a2enmod proxy
 a2enmod proxy_html
 a2enmod proxy_http/41
 sed -i '$aServerName localhost' /etc/apache2/apache2.conf
+service apache2 restart
+cd /etc/apache2/sites-enabled
+wget https://pastebin.com/raw/GbjFC2ii
+cp GbjFC2ii 001-reverseproxy.conf
 sudo rm /var/www/html/index.html
 sudo touch /var/www/html/index.php
 cat << EOF > /var/www/html/index.html
@@ -19,13 +23,9 @@ cat << EOF > /var/www/html/index.html
 				Titel - Test        
         </head>
         <body>
-                Dies ist der Test, wlecher aufzeigt, dass das Vagrantfile funktioniert.
+                Dies ist der Test, welcher aufzeigt, dass das Vagrantfile funktioniert.
         </body>
         </html>
-service apache2 restart
-cd /etc/apache2/sites-enabled
-wget https://pastebin.com/raw/GbjFC2ii
-cp GbjFC2ii 001-reverseproxy.conf
 Script
 
 Vagrant.configure("2") do |config|
