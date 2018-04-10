@@ -28,7 +28,7 @@ Sie sehen gleich mein Vagrantfile bei dem Ubuntu mit einer Firewall Reproxy inst
 Außerdem das Protokoll TCP über den Port 80 in jedem Fall zugelassen.<br>
 Um sicherzugehen, dass diese Commands auch ausgeführt werden, führen wir den Command Force ein.</p>
 <p>Das Vagrantfile ist als Code folgender masse aufgebaut. Zuerst kommt ein Script welche die Konfigurationen an der installierten VM vornimmt. Danach kommt der Code welche die VM konfiguriert und schlussendlich auch das Script ausführt.</p>
-<pre><code>$Script = &lt;&lt;-Script
+<pre><code>$Script  =  &lt;&lt;-Script
 sudo apt-get update
 sudo apt-get install apache2 -y
 sudo apt-get install ufw -y
@@ -41,32 +41,32 @@ a2enmod proxy
 a2enmod proxy_html
 a2enmod proxy_http/41
 sed -i '$aServerName localhost' /etc/apache2/apache2.conf
-sudo rm /var/www/html/index.html
-    sudo touch /var/www/html/index.php
-    cat &lt;&lt; EOF &gt; /var/www/html/index.html
-    &lt;!doctype html&gt;
-    &lt;head&gt;
-			Titel - Test        
-    &lt;/head&gt;
-    &lt;body&gt;
-            Dies ist der Test, wlecher aufzeigt, dass das Vagrantfile funktioniert.
-    &lt;/body&gt;
-    &lt;/html&gt;
 service apache2 restart
 cd /etc/apache2/sites-enabled
 wget https://pastebin.com/raw/GbjFC2ii
 cp GbjFC2ii 001-reverseproxy.conf
+sudo rm /var/www/html/index.html
+sudo touch /var/www/html/index.php
+cat &lt;&lt; EOF &gt; /var/www/html/index.html
+&lt;!doctype html&gt;
+	&lt;head&gt;
+		Dies ist der Testtitel des Indexfiles
+	&lt;/head&gt;
+	&lt;body&gt;
+		Test Text
+	&lt;/body&gt;
+	&lt;/html&gt;
 Script
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/trusty64" 
-  config.vm.network "private_network", ip:"192.168.50.50"
-  config.vm.network "forwarded_port", guest:80, host:8090, auto_correct: true
-  config.vm.synced_folder ".", "/var/www/html"
-  config.vm.provider "virtualbox" do |vb| 
-    vb.memory = "512"
-  end
-  config.vm.provision "shell", inline: $Script
+config.vm.box =  "ubuntu/trusty64"
+config.vm.network "private_network", ip:"192.168.50.50"
+	config.vm.network "forwarded_port", guest:80, host:8090, auto_correct: true
+config.vm.synced_folder ".", "/var/www/html"
+config.vm.provider "virtualbox"  do |vb|
+vb.memory =  "512"
+	end
+config.vm.provision "shell", inline: $Script
 end
 </code></pre>
 <h2 id="test">Test</h2>
