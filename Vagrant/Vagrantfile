@@ -12,8 +12,8 @@ a2enmod proxy_html
 a2enmod proxy_http/41
 sed -i '$aServerName localhost' /etc/apache2/apache2.conf
 sudo rm /var/www/html/index.html
-        sudo touch /var/www/html/index.php
-        cat << EOF > /var/www/html/index.html
+sudo touch /var/www/html/index.php
+cat << EOF > /var/www/html/index.html
         <!doctype html>
         <head>
 				Titel - Test        
