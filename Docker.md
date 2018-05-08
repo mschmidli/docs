@@ -23,11 +23,12 @@ Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollzie
 ## Eigener Service
 Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gemacht. Um nicht immer wieder die Docker-Command herauszusuchen habe ich diese in einer Tabelle unten aufgelistet.
 
+
 ### Docker-Commands
 | Command | Beischreibung |
 |--|--|
-| docker create  | Erstellt einen Container aber startet diesen nicht |
-| docker rename| |
+|docker create| Erstellt einen Container aber startet diesen nicht |
+|	docker rename| |
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
 | docker rm | |
 | docker update |  |
@@ -35,7 +36,7 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | docker images |  |
 | docker build |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjI5MjQ1MiwtMTU3Nzk3NTQ2MSwtMj
-UyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OCwxODU0OTI4
-MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLT
+I1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDky
+ODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
