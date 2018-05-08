@@ -26,12 +26,13 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 ### Docker-Commands
 | Command | Beischreibung |
 |--|--|
+| docker create  |  |
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
-| | | sdf| 
+| | |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3Mz
-I3ODMyNTgsMTg1NDkyODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0
-ODU0XX0=
+eyJoaXN0b3J5IjpbODc0ODQwNzYzLC0yNTI1ODI5NzAsMTczMj
+c4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2
+NCwtMTYxNDc0NDg1NF19
 -->
