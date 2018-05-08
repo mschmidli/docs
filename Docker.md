@@ -30,10 +30,12 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | docker rename| |
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
 | docker rm | |
-
-
+| docker update |  |
+| docker ps |  |
+| docker images |  |
+| docker build |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTExODk2MiwtMTU3Nzk3NTQ2MSwtMj
+eyJoaXN0b3J5IjpbMTIyMjI5MjQ1MiwtMTU3Nzk3NTQ2MSwtMj
 UyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OCwxODU0OTI4
 MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
 -->
