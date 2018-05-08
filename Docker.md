@@ -28,7 +28,7 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | Command | Beischreibung |
 |--|--|
 |docker create| Erstellt einen Container aber startet diesen nicht |
-|	docker rename| |
+|	docker rename| Der Container kann mit diesem Befehl Umbennent werden |
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
 | docker rm | |
 | docker update |  |
@@ -36,7 +36,8 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | docker images |  |
 | docker build |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLT
-I1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDky
-ODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
+eyJoaXN0b3J5IjpbLTg0NTk5MTA4MCwtMTczMjUwNTg4MiwtMT
+U3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4
+MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NT
+RdfQ==
 -->
