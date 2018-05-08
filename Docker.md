@@ -24,13 +24,13 @@ Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollzie
 Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gemacht. Um nicht immer wieder die Docker-Command herauszusuchen habe ich diese in einer Tabelle unten aufgelistet.
 
 ### Docker-Commands
-| Command |  |
+| Command | Beischriebung |
 |--|--|
 |  |  |
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNjk3OTQxLDE4NTQ5MjgyMzksLTg5Nj
-E4ODM2NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTExNjU3OTQ0MTMsMTg1NDkyODIzOSwtOD
+k2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
