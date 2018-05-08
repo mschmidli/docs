@@ -27,17 +27,17 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 ### Docker-Commands
 | Command | Beischreibung |
 |--|--|
-|docker create| Erstellt einen Container aber startet diesen nicht |
-|	docker rename| Der Container kann mit diesem Befehl Umbennent werden |
-| docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
+|docker create| Erstellt einen Container aber startet diesen nicht. |
+|	docker rename| Der Container kann mit diesem Befehl Umbennent werden. |
+| docker run "Name" | Führt das gewünschte Docker-Image aus. (Ohne "") |
 | docker rm | Der ausgewählte Container wird gelöscht. |
 | docker update | Die Ressourcen von dem Container könne angepasst werden. |
 | docker ps | Listet die laufenden Container auf. |
-| docker images |  |
-| docker build |  |
+| docker images | Listet alle Docker-Iamges auf dem Host auf. |
+| docker build | Erstellt aus einem Dockerfile ein  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MTM3MTgzLC0xNzMyNTA1ODgyLC0xNT
-c3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMyNzgz
-MjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2NCwtMTYxNDc0NDg1NF
-19
+eyJoaXN0b3J5IjpbLTE3OTI1NjI1NSwtMTczMjUwNTg4MiwtMT
+U3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4
+MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NT
+RdfQ==
 -->
