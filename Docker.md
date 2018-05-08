@@ -21,8 +21,8 @@ https://docs.docker.com/get-started/
 Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollziehen. Für das weiter vorgehen habe ich im Internet recherchiert und dann auf der Ubuntu VM ausprobiert.
 
 ## Eigener Service
-Nach der installation von Docker hab
+Nach der installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gewi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTA0MTAxMywtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTg5NjE4ODM2NCwtMTYxNDc0NDg1NF19
 -->
