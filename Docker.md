@@ -34,9 +34,9 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | docker update | Die Ressourcen von dem Container könne angepasst werden. |
 | docker ps | Listet die laufenden Container auf. |
 | docker images | Listet alle Docker-Iamges auf dem Host auf. |
-| docker build | Erstellt aus einem Dockerfile ein  |
+| docker build | Erstellt aus einem Dockerfile ein Image. |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI1NjI1NSwtMTczMjUwNTg4MiwtMT
+eyJoaXN0b3J5IjpbLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMT
 U3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4
 MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NT
 RdfQ==
