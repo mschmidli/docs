@@ -26,7 +26,7 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 ### Docker-Commands
 | Command | Beischreibung |
 |--|--|
-| docker run "Name" | Fü |
+| docker run "Name" | Führt das gewünschte Docker-Image aus (Die anführungszeichen sind nich |
 
 
 Command
@@ -65,6 +65,6 @@ shows all images.
 
 creates image from Dockerfile.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzU5MjE5OCwxODU0OTI4MjM5LC04OT
-YxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
+eyJoaXN0b3J5IjpbNjk2NDA0MDAzLDE4NTQ5MjgyMzksLTg5Nj
+E4ODM2NCwtMTYxNDc0NDg1NF19
 -->
