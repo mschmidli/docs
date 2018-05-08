@@ -24,8 +24,7 @@ Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollzie
 Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gemacht.
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDkyODIzOSwtODk2MTg4MzY0LC0xNj
-E0NzQ0ODU0XX0=
+eyJoaXN0b3J5IjpbMTYzNTU2NjQ2NSwxODU0OTI4MjM5LC04OT
+YxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
 -->
