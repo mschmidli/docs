@@ -28,43 +28,10 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 |--|--|
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
 |--|--|
+| | | sdf| 
 
-Command
 
-Description
-
-docker create`
-
-creates a container but does not start it.
-
-`docker rename`
-
-allows the container to be renamed.
-
-`docker run`
-
-creates and starts a container in one operation.
-
-`docker rm`
-
-deletes a container.
-
-`docker update`
-
-updates a container’s resource limits.
-
-`docker ps`
-
-shows running containers.
-
-`docker images`
-
-shows all images.
-
-`docker build`
-
-creates image from Dockerfile.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NTA1Njk0LDE4NTQ5MjgyMzksLTg5Nj
-E4ODM2NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbMTczMjc4MzI1OCwxODU0OTI4MjM5LC04OT
+YxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
 -->
