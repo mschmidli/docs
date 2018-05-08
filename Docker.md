@@ -27,12 +27,13 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | Command | Beischreibung |
 |--|--|
 |  docker create  | Erstellt einen Container aber startet diesen nicht |
+|  dicker rename|  |
 |  docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
 |   | |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNDM2MTYxLC0yNTI1ODI5NzAsMTczMj
-c4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2
-NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MCwxNz
+MyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwtODk2MTg4
+MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
