@@ -36,10 +36,10 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 | docker images | Listet alle Docker-Iamges auf dem Host auf. |
 | docker build | Erstellt aus einem Dockerfile ein Image. |
 
-
+y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMT
-czMjUwNTg4MiwtMTU3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3
-ODMyNTgsMTczMjc4MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNj
-QsLTE2MTQ3NDQ4NTRdfQ==
+eyJoaXN0b3J5IjpbMTA5MDkzMjg4MSwtMTExOTMzNDM1OCwtNz
+k3MjU0MDY2LC0xNzMyNTA1ODgyLC0xNTc3OTc1NDYxLC0yNTI1
+ODI5NzAsMTczMjc4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMz
+ksLTg5NjE4ODM2NCwtMTYxNDc0NDg1NF19
 -->
