@@ -29,8 +29,42 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 |  |  |
 
 
+Command
 
+Description
+
+docker create`
+
+creates a container but does not start it.
+
+`docker rename`
+
+allows the container to be renamed.
+
+`docker run`
+
+creates and starts a container in one operation.
+
+`docker rm`
+
+deletes a container.
+
+`docker update`
+
+updates a container’s resource limits.
+
+`docker ps`
+
+shows running containers.
+
+`docker images`
+
+shows all images.
+
+`docker build`
+
+creates image from Dockerfile.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzA4NDI5OSwxODU0OTI4MjM5LC04OT
+eyJoaXN0b3J5IjpbLTg5MzQ5NjY4NiwxODU0OTI4MjM5LC04OT
 YxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
 -->
