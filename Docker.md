@@ -30,13 +30,13 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 |docker create| Erstellt einen Container aber startet diesen nicht |
 |	docker rename| Der Container kann mit diesem Befehl Umbennent werden |
 | docker run "Name" | Führt das gewünschte Docker-Image aus (Ohne "") |
-| docker rm | |
-| docker update |  |
+| docker rm | Der ausgewählte Container wird gelöscht |
+| docker update | Die Ressourcen von |
 | docker ps |  |
 | docker images |  |
 | docker build |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTk5MTA4MCwtMTczMjUwNTg4MiwtMT
+eyJoaXN0b3J5IjpbMjA2NDQ3NjU2MSwtMTczMjUwNTg4MiwtMT
 U3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4
 MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NT
 RdfQ==
