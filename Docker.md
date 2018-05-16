@@ -51,13 +51,13 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  2. Nun habe ich ein PHP-File mit einem einfachen Text in meinem erstellten Ordner gespeichert. 
  **Bild von Terminal mit PHP Text**
  3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
- 4. 
- 5. dfa
+ **Bild von Terminal Dockerfile PHP**
+ 5. Dann habe ich mittels dem Befehl `Dcoker`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDU1MjkwNCwyMDMwMTAxNjg4LDEwNT
-IxMDIyNDYsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4
-MSwtMTExOTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1ODgyLC
-0xNTc3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMy
-NzgzMjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2NCwtMTYxNDc0ND
-g1NF19
+eyJoaXN0b3J5IjpbLTE1MTEyNjE2NzQsMjAzMDEwMTY4OCwxMD
+UyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5MzI4
+ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4Mi
+wtMTU3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTcz
+Mjc4MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3ND
+Q4NTRdfQ==
 -->
