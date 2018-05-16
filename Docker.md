@@ -43,7 +43,7 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 Um eine Grundwissen zu erarbeiten, wie die Docker-Container funktionieren, habe ich zu beginn die verschieden Images, welche von Docker bereitgestellt werden, angeschaut. Dann zu der Anleitung von Docker habe ich mittels einem vorgegeben Image einen Container aufgesetzt. Nach diesem Schritt habe ich das aufsetzen von Container verstanden. 
 Ich habe mich nun an die Erstellung eines eigenen Images gemacht. 
 
- #### PHP
+ ### PHP
  
  In meinem ersten Docker-Image habe ich einen PHP aufgesesetzt.
  
@@ -70,13 +70,13 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 	![](https://perrone.myqnapcloud.com:450/share.cgi/Localhost80_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Localhost80_Schmidli.PNG&openfolder=normal&ep=)
 
 
-#### cAdvisor installieren
+### cAdvisor installieren
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMDQ0MDY1LC0yMDQ5MjE2NDIxLC0xOT
-UxNTgwNTgzLDExMzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMy
-MjA1OCwtOTYzNTQxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0Ni
-wxNDcyNzAwNTA5LDYzMjMyNzQ0MywxMDkwOTMyODgxLC0xMTE5
-MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5Nz
-U0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgs
-MTg1NDkyODIzOV19
+eyJoaXN0b3J5IjpbLTkxODIyMzM1MywtMjA0OTIxNjQyMSwtMT
+k1MTU4MDU4MywxMTM5ODk4NzU4LDExMDc3MzQ0NjgsLTEyNTQz
+MjIwNTgsLTk2MzU0MTMwMCwyMDMwMTAxNjg4LDEwNTIxMDIyND
+YsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4MSwtMTEx
+OTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1ODgyLC0xNTc3OT
+c1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMyNzgzMjU4
+LDE4NTQ5MjgyMzldfQ==
 -->
