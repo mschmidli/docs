@@ -21,11 +21,10 @@ https://docs.docker.com/get-started/
 Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollziehen. Für das weiter vorgehen habe ich im Internet recherchiert und dann auf der Ubuntu VM ausprobiert.
 
 ## Docker
-## Docker
-
-Docker bietet einem die Möglichkeit Container aufzusetzen und diese zu Verwalten.
 
 **Docker**  ist eine Open Source-Software zur Isolierung von Anwendungen mit Containervirtualisierung.
+
+
 
 ## Eigener Service
 Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gemacht. Um nicht immer wieder die Docker-Command herauszusuchen habe ich diese in einer Tabelle unten aufgelistet.
@@ -45,9 +44,9 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 
 y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTE4MTk5OSwxMDkwOTMyODgxLC0xMT
-E5MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5
-NzU0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNT
-gsMTg1NDkyODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
+eyJoaXN0b3J5IjpbNDg0NzQzMzA0LDEwOTA5MzI4ODEsLTExMT
+kzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3
+NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OC
+wxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
 
 -->
