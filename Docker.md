@@ -62,13 +62,13 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  
  5. Im den Container dann zu starten musste ich noch den Befehl `docker run -p 80:80 schmidlifinal` eingeben.
 
- ![](https://perrone.myqnapcloud.com:450/share.cgi/Dockerfielrun_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Dockerfielrun_Schmidli.PNG&openfolder=normal&ep=)
+	 ![](https://perrone.myqnapcloud.com:450/share.cgi/Dockerfielrun_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Dockerfielrun_Schmidli.PNG&openfolder=normal&ep=)
  
  6. Um zu überprüfen ob es funktioniert hat, habe ich im Browser *localhost:80* eingegeben und bin erstellten Seite gelandet.
 
-![](https://perrone.myqnapcloud.com:450/share.cgi/Localhost80_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Localhost80_Schmidli.PNG&openfolder=normal&ep=)
+	![](https://perrone.myqnapcloud.com:450/share.cgi/Localhost80_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Localhost80_Schmidli.PNG&openfolder=normal&ep=)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc5MzEyMzYsLTIwNDkyMTY0MjEsLT
+eyJoaXN0b3J5IjpbLTE4MzYzODgwMjAsLTIwNDkyMTY0MjEsLT
 E5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0
 MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAyMj
 Q2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5MzI4ODEsLTEx
