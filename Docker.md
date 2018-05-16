@@ -45,9 +45,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
  #### PHP
  
- Mein erstes Docker-Image
+ In meinem ersten Docker-Image habe ich einen PHP aufgesesetzt.
+ 
+ 1. A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDk5NTQwNCwxNDcyNzAwNTA5LDYzMj
+eyJoaXN0b3J5IjpbLTkzMjYzNzgwNSwxNDcyNzAwNTA5LDYzMj
 MyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQw
 NjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MC
 wxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwtODk2
