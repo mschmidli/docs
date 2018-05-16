@@ -19,6 +19,15 @@ Der Auftrag war es,  mittels Docker sogenannte "Container" zu erstellen und den 
 Ich habe mir den Auftrag genau angeschaut und mich drüber informierte mich. Meine Vorgehensweise wurde vom Auftragsdokument übernommen, da dort alles genau beschrieben wurde. Ich arbeitete das das Skript durch und anschließend die Installation von Docker habe ich mittels dem folgende Link erarbeitet: 
 https://docs.docker.com/get-started/
 Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollziehen. Für das weiter vorgehen habe ich im Internet recherchiert und dann auf der Ubuntu VM ausprobiert.
+```
+FROM ubuntu:14.04
+```
+## Docker
+## Docker
+
+Docker bietet einem die Möglichkeit Container aufzusetzen und diese zu Verwalten.
+
+**Docker**  ist eine Open Source-Software zur Isolierung von Anwendungen mit Containervirtualisierung.
 
 ## Eigener Service
 Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Dockerfiles gemacht. Um nicht immer wieder die Docker-Command herauszusuchen habe ich diese in einer Tabelle unten aufgelistet.
@@ -38,8 +47,9 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 
 y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDkzMjg4MSwtMTExOTMzNDM1OCwtNz
-k3MjU0MDY2LC0xNzMyNTA1ODgyLC0xNTc3OTc1NDYxLC0yNTI1
-ODI5NzAsMTczMjc4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMz
-ksLTg5NjE4ODM2NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbMTg4NzkyNjA1LDEwOTA5MzI4ODEsLTExMT
+kzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3
+NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OC
+wxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
+
 -->
