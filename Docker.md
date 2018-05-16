@@ -49,7 +49,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  
  1. Als erstes bin ich auf die Docker Webseite ( https://docker.com ) und habe dort nach der aktuelles PHP-Version welche von Docker unterstützt wird gesucht. Dabei bin ich auf Folgende Version gestoßen `FROM php:7.0-apache`.
  2. Nun habe ich ein PHP-File mit einem einfachen Text in meinem erstellten Ordner gespeichert. 
- **Bild von Terminal mit PHP Text**
+ ![](https://perrone.myqnapcloud.com:450/share.cgi/PHPFilemitText_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=PHPFilemitText_Schmidli.PNG&openfolder=normal&ep=)
  3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
  **Bild von Terminal Dockerfile PHP**
  4. Dann habe ich mittels dem Befehl `docker build -t schmidlifinal .` das Image erstellt.
@@ -59,11 +59,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  7. Um zu überprüfen ob es funktioniert hat, habe ich im Browser *localhost:80* eingegeben und bin erstellten Seite gelandet.
 **Bild PHPFirefox**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMT
-EzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1
-NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MD
-ksNjMyMzI3NDQzLDEwOTA5MzI4ODEsLTExMTkzMzQzNTgsLTc5
-NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3NTQ2MSwtMjUyNT
-gyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OCwxODU0OTI4MjM5
-LC04OTYxODgzNjRdfQ==
+eyJoaXN0b3J5IjpbMTc0MjgwMDE1LC0yMDQ5MjE2NDIxLC0xOT
+UxNTgwNTgzLDExMzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMy
+MjA1OCwtOTYzNTQxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0Ni
+wxNDcyNzAwNTA5LDYzMjMyNzQ0MywxMDkwOTMyODgxLC0xMTE5
+MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5Nz
+U0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgs
+MTg1NDkyODIzOV19
 -->
