@@ -47,11 +47,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  
  In meinem ersten Docker-Image habe ich einen PHP aufgesesetzt.
  
- 1. Als erstes habe ich mich auf der Docker Webseiten ( https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=PHP&starCount=0) 
+ 1. Als erstes bin ich auf die Docker Webseite ( https://docker.com ) und habe dort 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQxMzI5NzgsMTQ3MjcwMDUwOSw2Mz
-IzMjc0NDMsMTA5MDkzMjg4MSwtMTExOTMzNDM1OCwtNzk3MjU0
-MDY2LC0xNzMyNTA1ODgyLC0xNTc3OTc1NDYxLC0yNTI1ODI5Nz
-AsMTczMjc4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5
-NjE4ODM2NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTU2MjEwNDY1NiwxNDcyNzAwNTA5LDYzMj
+MyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQw
+NjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MC
+wxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwtODk2
+MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
