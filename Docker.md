@@ -53,10 +53,10 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
  **Bild von Terminal Dockerfile PHP**
  4. Dann habe ich mittels dem Befehl `docker create  Dockerfile` das Image erstellt.
-**Bild Terminal Befehl docker Create**
+**Bild Terminal Befehl "docker Create"**
  6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg0MDk0OCwyMDMwMTAxNjg4LDEwNT
+eyJoaXN0b3J5IjpbLTk2MzU0MTMwMCwyMDMwMTAxNjg4LDEwNT
 IxMDIyNDYsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4
 MSwtMTExOTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1ODgyLC
 0xNTc3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMy
