@@ -38,11 +38,13 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 | docker images | Listet alle Docker-Iamges auf dem Host auf. |
 | docker build | Erstellt aus einem Dockerfile ein Image. |
 
-y
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMzI3NDQzLDEwOTA5MzI4ODEsLTExMT
-kzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3
-NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OC
-wxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
+## Eigener erstellten Service mit Docker
 
+Um eine Grundwiesen 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMDExNTM5NDIsNjMyMzI3NDQzLDEwOT
+A5MzI4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUw
+NTg4MiwtMTU3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNT
+gsMTczMjc4MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2
+MTQ3NDQ4NTRdfQ==
 -->
