@@ -50,9 +50,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  1. Als erstes bin ich auf die Docker Webseite ( https://docker.com ) und habe dort nach der aktuelles PHP-Version welche von Docker unterstützt wird gesucht. Dabei bin ich auf Folgende Version gestoßen `FROM php:7.0-apache`.
  2. Nun habe ich ein PHP-File mit einem einfachen Text in meinem erstellten Ordner gespeichert. 
  **Bild von Terminal mit PHP Text**
- 3. Als nächstes habe ich das 
+ 3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
+ 4. 
+ 5. dfa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTk5Mzg3NCwyMDMwMTAxNjg4LDEwNT
+eyJoaXN0b3J5IjpbMjA2NDU1MjkwNCwyMDMwMTAxNjg4LDEwNT
 IxMDIyNDYsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4
 MSwtMTExOTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1ODgyLC
 0xNTc3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMy
