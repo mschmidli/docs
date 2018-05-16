@@ -40,9 +40,9 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 
 ## Eigener erstellten Service mit Docker
 
-Um eine Grundwiesen 
+Um eine Grundwissen zu erarbeiten, wie die Docker-Container funktionieren, habe ich zu beginn die von Docker b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDExNTM5NDIsNjMyMzI3NDQzLDEwOT
+eyJoaXN0b3J5IjpbLTEyMDg0NDQ2MDMsNjMyMzI3NDQzLDEwOT
 A5MzI4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUw
 NTg4MiwtMTU3Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNT
 gsMTczMjc4MzI1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2
