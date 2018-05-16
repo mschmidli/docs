@@ -53,13 +53,14 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
  **Bild von Terminal Dockerfile PHP**
  4. Dann habe ich mittels dem Befehl `docker build -t schmidlifinal .` das Image erstellt.
-**Bild Terminal Befehl "docker Create"**
+**Bild Terminal Befehl "docker build"**
  6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzczNDQ2OCwtMTI1NDMyMjA1OCwtOT
-YzNTQxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0NiwxNDcyNzAw
-NTA5LDYzMjMyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC
-03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1
-MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyOD
-IzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
+eyJoaXN0b3J5IjpbMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMj
+U0MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAy
+MjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5MzI4ODEsLT
+ExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3
+Nzk3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4Mz
+I1OCwxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRd
+fQ==
 -->
