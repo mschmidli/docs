@@ -19,9 +19,7 @@ Der Auftrag war es,  mittels Docker sogenannte "Container" zu erstellen und den 
 Ich habe mir den Auftrag genau angeschaut und mich drüber informierte mich. Meine Vorgehensweise wurde vom Auftragsdokument übernommen, da dort alles genau beschrieben wurde. Ich arbeitete das das Skript durch und anschließend die Installation von Docker habe ich mittels dem folgende Link erarbeitet: 
 https://docs.docker.com/get-started/
 Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollziehen. Für das weiter vorgehen habe ich im Internet recherchiert und dann auf der Ubuntu VM ausprobiert.
-```
-FROM ubuntu:14.04
-```
+
 ## Docker
 ## Docker
 
@@ -47,9 +45,9 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 
 y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzkyNjA1LDEwOTA5MzI4ODEsLTExMT
-kzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3
-NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OC
-wxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
+eyJoaXN0b3J5IjpbMTY0MTE4MTk5OSwxMDkwOTMyODgxLC0xMT
+E5MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5
+NzU0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNT
+gsMTg1NDkyODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 
 -->
