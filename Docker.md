@@ -54,7 +54,8 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 	 ![](https://perrone.myqnapcloud.com:450/share.cgi/PHPFilemitText_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=PHPFilemitText_Schmidli.PNG&openfolder=normal&ep=)
 
 3. Als nächstes habe ich das Dockerfile erstellt, welches als Grundlage für das Image dient.
-	 ![](https://perrone.myqnapcloud.com:450/share.cgi/PHPdockerfile_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=PHPdockerfile_Schmidli.PNG&openfolder=normal&ep=)
+
+	![](https://perrone.myqnapcloud.com:450/share.cgi/PHPdockerfile_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=PHPdockerfile_Schmidli.PNG&openfolder=normal&ep=)
 
  4. Dann habe ich mittels dem Befehl `docker build -t schmidlifinal .` das Image erstellt.
 
@@ -68,11 +69,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 	![](https://perrone.myqnapcloud.com:450/share.cgi/Localhost80_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Localhost80_Schmidli.PNG&openfolder=normal&ep=)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYzODgwMjAsLTIwNDkyMTY0MjEsLT
-E5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0
-MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAyMj
-Q2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5MzI4ODEsLTEx
-MTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nz
-k3NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1
-OCwxODU0OTI4MjM5XX0=
+eyJoaXN0b3J5IjpbLTUyMDI5NjA2NiwtMjA0OTIxNjQyMSwtMT
+k1MTU4MDU4MywxMTM5ODk4NzU4LDExMDc3MzQ0NjgsLTEyNTQz
+MjIwNTgsLTk2MzU0MTMwMCwyMDMwMTAxNjg4LDEwNTIxMDIyND
+YsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4MSwtMTEx
+OTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1ODgyLC0xNTc3OT
+c1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OCwxNzMyNzgzMjU4
+LDE4NTQ5MjgyMzldfQ==
 -->
