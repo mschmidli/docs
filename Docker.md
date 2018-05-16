@@ -23,7 +23,7 @@ Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollzie
 ## Docker
 
 **Docker**  ist eine Open Source-Software zur Isolierung von Anwendungen mit Containervirtualisierung.
-Die Bereitstellungen der 
+Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die Docker-Container können mit  
 
 
 ## Eigener Service
@@ -44,7 +44,7 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 
 y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNjk1Mjk3LDEwOTA5MzI4ODEsLTExMT
+eyJoaXN0b3J5IjpbMTM1NTI5OTEyLDEwOTA5MzI4ODEsLTExMT
 kzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3
 NTQ2MSwtMjUyNTgyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OC
 wxODU0OTI4MjM5LC04OTYxODgzNjQsLTE2MTQ3NDQ4NTRdfQ==
