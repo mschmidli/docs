@@ -40,9 +40,10 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 
 ## Eigener erstellten Service mit Docker
 
-Um eine Grundwissen zu erarbeiten, wie die Docker-Container funktionieren, habe ich zu beginn die verschieden Images, welche von Docker bereitgestellt werden, angeschaut. Dann zu der Anleitung von Docker habe ich mittels einem vorgegeben Image einen Container aufgesetzt.  
+Um eine Grundwissen zu erarbeiten, wie die Docker-Container funktionieren, habe ich zu beginn die verschieden Images, welche von Docker bereitgestellt werden, angeschaut. Dann zu der Anleitung von Docker habe ich mittels einem vorgegeben Image einen Container aufgesetzt. Nach diesem Schritt habe ich das aufsetzen von Container verstanden. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTE3MjEwMCw2MzIzMjc0NDMsMTA5MD
+eyJoaXN0b3J5IjpbLTM3NzAyMDg3Nyw2MzIzMjc0NDMsMTA5MD
 kzMjg4MSwtMTExOTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1
 ODgyLC0xNTc3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OC
 wxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2NCwtMTYx
