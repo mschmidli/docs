@@ -55,9 +55,10 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  4. Dann habe ich mittels dem Befehl `docker build -t schmidlifinal .` das Image erstellt.
 **Bild Terminal Befehl "docker build"**
  6. Im den Container dann zu starten musste ich noch den Befehl `docker run -p 80:80 schmidlifinal` eingeben.
- 7. 
+ **Bild Terminal "docker run"**
+ 8. Um zu überprüfen ob es funktioniert hat, habe ich im Bro
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMDM5NDAsLTE5NTE1ODA1ODMsMTEzOT
+eyJoaXN0b3J5IjpbMjQ0MTk2ODUsLTE5NTE1ODA1ODMsMTEzOT
 g5ODc1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1NDEz
 MDAsMjAzMDEwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MDksNj
 MyMzI3NDQzLDEwOTA5MzI4ODEsLTExMTkzMzQzNTgsLTc5NzI1
