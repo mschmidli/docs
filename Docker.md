@@ -57,17 +57,17 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
  4. Dann habe ich mittels dem Befehl `docker build -t schmidlifinal .` das Image erstellt.
 
-![](https://perrone.myqnapcloud.com:450/share.cgi/Dockerfielrun_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Dockerfielrun_Schmidli.PNG&openfolder=normal&ep=)
+![]()
  
  5. Im den Container dann zu starten musste ich noch den Befehl `docker run -p 80:80 schmidlifinal` eingeben.
 
- **Bild Terminal "docker run"**
+ ![](https://perrone.myqnapcloud.com:450/share.cgi/Dockerfielrun_Schmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=Dockerfielrun_Schmidli.PNG&openfolder=normal&ep=)
  
  6. Um zu überprüfen ob es funktioniert hat, habe ich im Browser *localhost:80* eingegeben und bin erstellten Seite gelandet.
 
 **Bild PHPFirefox**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzI4NDI2OCwtMjA0OTIxNjQyMSwtMT
+eyJoaXN0b3J5IjpbMTU4MDAwMDAzNiwtMjA0OTIxNjQyMSwtMT
 k1MTU4MDU4MywxMTM5ODk4NzU4LDExMDc3MzQ0NjgsLTEyNTQz
 MjIwNTgsLTk2MzU0MTMwMCwyMDMwMTAxNjg4LDEwNTIxMDIyND
 YsMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MDkzMjg4MSwtMTEx
