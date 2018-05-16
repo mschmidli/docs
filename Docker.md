@@ -47,11 +47,12 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
  
  In meinem ersten Docker-Image habe ich einen PHP aufgesesetzt.
  
- 1. Als erstes bin ich auf die Docker Webseite ( https://docker.com ) und habe dort nach der aktuelles PHP-Version welche von Docker unterstützt wird gesucht. Dabei bin ich auf Folgende Version gestossen ```From
+ 1. Als erstes bin ich auf die Docker Webseite ( https://docker.com ) und habe dort nach der aktuelles PHP-Version welche von Docker unterstützt wird gesucht. Dabei bin ich auf Folgende Version gestoßen `FROM php:7.0-apache`.
+ 2. 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg1MjM3MTQsMTQ3MjcwMDUwOSw2Mz
-IzMjc0NDMsMTA5MDkzMjg4MSwtMTExOTMzNDM1OCwtNzk3MjU0
-MDY2LC0xNzMyNTA1ODgyLC0xNTc3OTc1NDYxLC0yNTI1ODI5Nz
-AsMTczMjc4MzI1OCwxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5
-NjE4ODM2NCwtMTYxNDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTc5NzkzOTYyNywxNDcyNzAwNTA5LDYzMj
+MyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQw
+NjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MC
+wxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwtODk2
+MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
