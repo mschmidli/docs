@@ -56,13 +56,14 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 **Bild Terminal Befehl "docker build"**
  6. Im den Container dann zu starten musste ich noch den Befehl `docker run -p 80:80 schmidlifinal` eingeben.
  **Bild Terminal "docker run"**
- 8. Um zu überprüfen ob es funktioniert hat, habe ich im Browser *localhost:80* eingegeben und bin direkt auf meine 
+ 7. Um zu überprüfen ob es funktioniert hat, habe ich im Browser *localhost:80* eingegeben und bin erstellten Seite gelandet.
+**Bild PHPFirefox**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMjIzODQxLC0xOTUxNTgwNTgzLDExMz
-k4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMyMjA1OCwtOTYzNTQx
-MzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0NiwxNDcyNzAwNTA5LD
-YzMjMyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcy
-NTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mj
-k3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwt
-ODk2MTg4MzY0XX0=
+eyJoaXN0b3J5IjpbLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMT
+EzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1
+NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MD
+ksNjMyMzI3NDQzLDEwOTA5MzI4ODEsLTExMTkzMzQzNTgsLTc5
+NzI1NDA2NiwtMTczMjUwNTg4MiwtMTU3Nzk3NTQ2MSwtMjUyNT
+gyOTcwLDE3MzI3ODMyNTgsMTczMjc4MzI1OCwxODU0OTI4MjM5
+LC04OTYxODgzNjRdfQ==
 -->
