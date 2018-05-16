@@ -23,7 +23,7 @@ Mittels dieser Anleitung konnte ich die Docker Installation sehr gut nachvollzie
 ## Docker
 
 **Docker**  ist eine Open Source-Software zur Isolierung von Anwendungen mit Containervirtualisierung.
-Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die Docker-Container haben kein eigenes Betriebsleitsystem, die benötigte Leistung wird von dem Host-Betriebssystem genommen. Der ganze Container ist jedoch nicht fest auf dem Host installiert. 
+Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die Docker-Container haben kein eigenes Betriebsleitsystem, die benötigte Leistung wird von dem Host-Betriebssystem genommen. Der Container ist  
 
 
 ## Eigener Service
@@ -44,7 +44,7 @@ Nach der Installation von Docker habe ich mich an dem erstellen eines eigenen Do
 
 y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODExNjQxNywxMDkwOTMyODgxLC0xMT
+eyJoaXN0b3J5IjpbMjA4MzI3MDA1MCwxMDkwOTMyODgxLC0xMT
 E5MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5
 NzU0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4LDE3MzI3ODMyNT
 gsMTg1NDkyODIzOSwtODk2MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
