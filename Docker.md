@@ -42,10 +42,14 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 
 Um eine Grundwissen zu erarbeiten, wie die Docker-Container funktionieren, habe ich zu beginn die verschieden Images, welche von Docker bereitgestellt werden, angeschaut. Dann zu der Anleitung von Docker habe ich mittels einem vorgegeben Image einen Container aufgesetzt. Nach diesem Schritt habe ich das aufsetzen von Container verstanden. 
 Ich habe mich nun an die Erstellung eines eigenen Images gemacht. 
+
+ #### PHP
+ 
+ Mein erstes Docker-Image
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjcwMDUwOSw2MzIzMjc0NDMsMTA5MD
-kzMjg4MSwtMTExOTMzNDM1OCwtNzk3MjU0MDY2LC0xNzMyNTA1
-ODgyLC0xNTc3OTc1NDYxLC0yNTI1ODI5NzAsMTczMjc4MzI1OC
-wxNzMyNzgzMjU4LDE4NTQ5MjgyMzksLTg5NjE4ODM2NCwtMTYx
-NDc0NDg1NF19
+eyJoaXN0b3J5IjpbLTgwNDk5NTQwNCwxNDcyNzAwNTA5LDYzMj
+MyNzQ0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQw
+NjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MC
+wxNzMyNzgzMjU4LDE3MzI3ODMyNTgsMTg1NDkyODIzOSwtODk2
+MTg4MzY0LC0xNjE0NzQ0ODU0XX0=
 -->
