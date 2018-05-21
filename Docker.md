@@ -79,14 +79,15 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 2. Danach kann durch Eingabe im Browser `localhost:8080` auf das Monitoring zugreifen.
 
-	
 	![](https://perrone.myqnapcloud.com:450/share.cgi/CadvisorSchmdili.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=CadvisorSchmdili.PNG&openfolder=normal&ep=)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg1MzIzNzgsMjA5MTIwMDg4OCwtMT
-Y2MTAxOTY2NCwtMTgyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgy
-MjMzNTMsLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5OD
-c1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAs
-MjAzMDEwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMz
-I3NDQzLDEwOTA5MzI4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2
-NiwtMTczMjUwNTg4Ml19
+eyJoaXN0b3J5IjpbNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2Nj
+EwMTk2NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIz
+MzUzLC0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NT
+gsMTEwNzczNDQ2OCwtMTI1NDMyMjA1OCwtOTYzNTQxMzAwLDIw
+MzAxMDE2ODgsMTA1MjEwMjI0NiwxNDcyNzAwNTA5LDYzMjMyNz
+Q0MywxMDkwOTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQwNjYs
+LTE3MzI1MDU4ODJdfQ==
 -->
