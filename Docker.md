@@ -75,15 +75,15 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 ### cAdvisor installieren
 
 1. Zuerst habe ich das Docker Image ausgeführt
-	`docker run -d -p 80:80 schmidlifinal`
+	`docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 google/cadvisor:latest`
 
-2. 
+2. Danach kann durch Eingabe im Browser 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEwMTk2NjQsLTE4MjU2MTE5NjQsMT
-g5MzA2OTY2NywtOTE4MjIzMzUzLC0yMDQ5MjE2NDIxLC0xOTUx
-NTgwNTgzLDExMzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMyMj
-A1OCwtOTYzNTQxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0Niwx
-NDcyNzAwNTA5LDYzMjMyNzQ0MywxMDkwOTMyODgxLC0xMTE5Mz
-M0MzU4LC03OTcyNTQwNjYsLTE3MzI1MDU4ODIsLTE1Nzc5NzU0
-NjEsLTI1MjU4Mjk3MF19
+eyJoaXN0b3J5IjpbMTY3ODEyNTcyMywtMTY2MTAxOTY2NCwtMT
+gyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDky
+MTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0ND
+Y4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwx
+MDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5Mz
+I4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4
+MiwtMTU3Nzk3NTQ2MV19
 -->
