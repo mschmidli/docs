@@ -85,12 +85,27 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 ### Firewall installieren
 1. 
 
+## Testing
+
+Um das Testing durchzuführen haben ich verschiedene Testcases erstellt und nach diesen Fällen die Tests druchgeführt.  
+
+Die Test Cases habe i
+
+|  **Test** |  _Erwartete Ausg._  | Tatächliche Ausg.
+
+|  **Docker Build**  |  _Docker wird per  `docker build -t Docker_NAME:Version . erstellt`_  | Container ist nach CMD vorhanden
+
+|  **Docker Verbinden** |  _Docker Container wird per  `docker run -ti -p 80:80 NAME /bin/bash`  gestartet_  | Verbindung erfolgreich
+
+|  **Port Forwarding** | *Man kann auf 'Localhost’_und somit auf den Webserver zugreifen._  | Man kann auf ‘Localhost’*und somit auf den Webserver zugreifen.
+
+|  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODc4OTcxOCwtMjA2ODkyNDk4Nyw0MT
-E5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgyNTYx
-MTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMTY0Mj
-EsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0x
-MjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwxMDUyMT
-AyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5MzI4ODEs
-LTExMTkzMzQzNThdfQ==
+eyJoaXN0b3J5IjpbLTU4NjU5MjAxMiwtMjQ4Nzg5NzE4LC0yMD
+Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
+NjY0LC0xODI1NjExOTY0LDE4OTMwNjk2NjcsLTkxODIyMzM1My
+wtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4NzU4LDEx
+MDc3MzQ0NjgsLTEyNTQzMjIwNTgsLTk2MzU0MTMwMCwyMDMwMT
+AxNjg4LDEwNTIxMDIyNDYsMTQ3MjcwMDUwOSw2MzIzMjc0NDMs
+MTA5MDkzMjg4MV19
 -->
