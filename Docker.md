@@ -95,17 +95,17 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **Docker Build**  |  _Docker-Image wird per  `docker build -t "Name" .`_ erstellt   | Container ist nach CMD vorhanden
 
-|  **Docker Verbinden** |  _Docker Container wird per  `docker run -ti -p 80:80 NAME /bin/bash`  gestartet_  | Verbindung erfolgreich
+|  **Docker Verbinden** |  _Docker Container wird per  `docker run -ti -p 80:80 "Name" /bin/bash`  gestartet_  | Verbindung erfolgreich
 
 |  **Port Forwarding** | *Man kann auf 'Localhost’_und somit auf den Webserver zugreifen._  | Man kann auf ‘Localhost’*und somit auf den Webserver zugreifen.
 
 |  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMj
-A2ODkyNDk4Nyw0MTE5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAx
-OTY2NCwtMTgyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNT
-MsLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwx
-MTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMD
-EwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQz
-LDEwOTA5MzI4ODFdfQ==
+eyJoaXN0b3J5IjpbMTUwOTcwNTUzLC0xNjM4OTgyODM1LC0yND
+g3ODk3MTgsLTIwNjg5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4
+ODgsLTE2NjEwMTk2NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2Ny
+wtOTE4MjIzMzUzLC0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDEx
+Mzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMyMjA1OCwtOTYzNT
+QxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0NiwxNDcyNzAwNTA5
+LDYzMjMyNzQ0M119
 -->
