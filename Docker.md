@@ -95,13 +95,15 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **Docker Build**  |  _Docker-Image wird per  `docker build -t "Name" .`_ erstellt   | Container ist nach CMD vorhanden
 
-|  **Docker Verbinden** |  _Docker Container wird mittels Befehl  `docker run -ti -p 80:80 "Name" /bin/bash`  gestartet_  | Docker Starte und es wird eine 
+|  **Docker Verbinden** |  _Docker Container wird mittels Befehl  `docker run -ti -p 80:80 "Name" /bin/bash`  gestartet_  | Docker Starte und es wird eine Verbindung zum Docker shell aufgebaut
 
 |  **Port Forwarding** | *Man kann auf 'Localhost’_und somit auf den Webserver zugreifen._  | Man kann auf ‘Localhost’*und somit auf den Webserver zugreifen.
 
+|  **cAdvisor** | *Man kann auf 'Localhost’_und somit auf den Webserver zugreifen._  | Man kann auf ‘Localhost’*und somit auf den Webserver zugreifen.
+
 |  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTE3MDQ1NTMsMTUwOTcwNTUzLC0xNj
+eyJoaXN0b3J5IjpbLTEzOTA3Njc1NzUsMTUwOTcwNTUzLC0xNj
 M4OTgyODM1LC0yNDg3ODk3MTgsLTIwNjg5MjQ5ODcsNDExOTU5
 ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2NjQsLTE4MjU2MTE5Nj
 QsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC0yMDQ5MjE2NDIxLC0x
