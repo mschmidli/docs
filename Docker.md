@@ -32,6 +32,7 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 |docker create| Erstellt einen Container aber startet diesen nicht. |
 |	docker rename| Der Container kann mit diesem Befehl Umbennent werden. |
 | docker run "Name" | Führt das gewünschte Docker-Image aus. (Ohne "") |
+| docker run -p "Name"|
 | docker rm | Der ausgewählte Container wird gelöscht. |
 | docker update | Die Ressourcen von dem Container könne angepasst werden. |
 | docker ps | Listet die laufenden Container auf. |
@@ -74,11 +75,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzA2OTY2NywtOTE4MjIzMzUzLC0yMD
-Q5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEwNzcz
-NDQ2OCwtMTI1NDMyMjA1OCwtOTYzNTQxMzAwLDIwMzAxMDE2OD
-gsMTA1MjEwMjI0NiwxNDcyNzAwNTA5LDYzMjMyNzQ0MywxMDkw
-OTMyODgxLC0xMTE5MzM0MzU4LC03OTcyNTQwNjYsLTE3MzI1MD
-U4ODIsLTE1Nzc5NzU0NjEsLTI1MjU4Mjk3MCwxNzMyNzgzMjU4
-LDE3MzI3ODMyNThdfQ==
+eyJoaXN0b3J5IjpbMzUzMjMwOTI4LDE4OTMwNjk2NjcsLTkxOD
+IyMzM1MywtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4
+NzU4LDExMDc3MzQ0NjgsLTEyNTQzMjIwNTgsLTk2MzU0MTMwMC
+wyMDMwMTAxNjg4LDEwNTIxMDIyNDYsMTQ3MjcwMDUwOSw2MzIz
+Mjc0NDMsMTA5MDkzMjg4MSwtMTExOTMzNDM1OCwtNzk3MjU0MD
+Y2LC0xNzMyNTA1ODgyLC0xNTc3OTc1NDYxLC0yNTI1ODI5NzAs
+MTczMjc4MzI1OF19
 -->
