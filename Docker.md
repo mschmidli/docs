@@ -97,17 +97,17 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **Docker Verbinden** |  _Docker Container wird mittels Befehl  `docker run -ti -p 80:80 "Name" /bin/bash`  gestartet | Docker Starte und es wird eine Verbindung zum Docker shell aufgebaut
 
-|  **Port Forwarding** | *Man kann auf "Localhost"_und somit auf den Webserver zugreifen._  | Man kann auf ‘Localhost’und somit auf den Webserver zugreifen.
+|  **Port Forwarding** | *Man kann auf "Localhost"_und somit auf den Webserver zugreifen._  | Man kann auf "Localhost" und somit auf den Webserver zugreifen.
 
-|  **cAdvisor** | *Man kann auf "Localhost:8080"_und somit auf das cAdvisor Monitoring zugreifen._  | Nach eingabe von "
+|  **cAdvisor** | *Man kann auf "Localhost:8080"_und somit auf das cAdvisor Monitoring zugreifen._  | Nach Eingabe von "Localhost:8080" 
 
 |  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTI3NzAyNiwxNTA5NzA1NTMsLTE2Mz
-g5ODI4MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4Nyw0MTE5NTk4
-MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgyNTYxMTk2NC
-wxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMTY0MjEsLTE5
-NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0Mz
-IyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwxMDUyMTAyMjQ2
-LDE0NzI3MDA1MDldfQ==
+eyJoaXN0b3J5IjpbLTIwODQ4MDk5ODIsMTUwOTcwNTUzLC0xNj
+M4OTgyODM1LC0yNDg3ODk3MTgsLTIwNjg5MjQ5ODcsNDExOTU5
+ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2NjQsLTE4MjU2MTE5Nj
+QsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC0yMDQ5MjE2NDIxLC0x
+OTUxNTgwNTgzLDExMzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1ND
+MyMjA1OCwtOTYzNTQxMzAwLDIwMzAxMDE2ODgsMTA1MjEwMjI0
+NiwxNDcyNzAwNTA5XX0=
 -->
