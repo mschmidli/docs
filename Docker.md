@@ -77,9 +77,10 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 1. Zuerst habe ich das Docker Image ausgeführt
 	`docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 google/cadvisor:latest`
 
-2. Danach kann durch Eingabe im Browser 
+2. Danach kann durch Eingabe im Browser `localhost:8080` auf das Monitoring zugreifen.
+Bild
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODEyNTcyMywtMTY2MTAxOTY2NCwtMT
+eyJoaXN0b3J5IjpbMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMT
 gyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDky
 MTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0ND
 Y4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwx
