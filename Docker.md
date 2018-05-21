@@ -93,7 +93,7 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 |  **Test** |  _Erwartete Ausg._  | Tatächliche Ausg.
 
 
-|  **Docker Build**  |  _Docker-Image wird per  `docker build -t Docker_NAME:Version . erstellt`_  | Container ist nach CMD vorhanden
+|  **Docker Build**  |  _Docker-Image wird per  `docker build -t "Name" .`_ erstellt   | Container ist nach CMD vorhanden
 
 |  **Docker Verbinden** |  _Docker Container wird per  `docker run -ti -p 80:80 NAME /bin/bash`  gestartet_  | Verbindung erfolgreich
 
@@ -101,11 +101,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxNDM4NjY4LC0yNDg3ODk3MTgsLTIwNj
-g5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2
-NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC
-0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEw
-NzczNDQ2OCwtMTI1NDMyMjA1OCwtOTYzNTQxMzAwLDIwMzAxMD
-E2ODgsMTA1MjEwMjI0NiwxNDcyNzAwNTA5LDYzMjMyNzQ0Mywx
-MDkwOTMyODgxXX0=
+eyJoaXN0b3J5IjpbLTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMj
+A2ODkyNDk4Nyw0MTE5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAx
+OTY2NCwtMTgyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNT
+MsLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwx
+MTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMD
+EwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQz
+LDEwOTA5MzI4ODFdfQ==
 -->
