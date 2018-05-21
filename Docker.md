@@ -32,7 +32,8 @@ Die Bereitstellungen von Anwendungen wird durch Docker massiver vereinfacht. Die
 |docker create| Erstellt einen Container aber startet diesen nicht. |
 |	docker rename| Der Container kann mit diesem Befehl Umbennent werden. |
 | docker run "Name" | Führt das gewünschte Docker-Image aus. (Ohne "") |
-| docker run -d "Name"| Das Docker Image wird ausgeführt und die besetzt nicht die Comando 
+| docker run -d "Name"| Mit dem Argumen "-d", wirDocker Image wird ausgeführt und die besetzt nicht das Terminal |
+|docker run -p 80:80 "Name"| |
 | docker rm | Der ausgewählte Container wird gelöscht. |
 | docker update | Die Ressourcen von dem Container könne angepasst werden. |
 | docker ps | Listet die laufenden Container auf. |
@@ -75,7 +76,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0MzYyNzQ3LDE4OTMwNjk2NjcsLTkxOD
+eyJoaXN0b3J5IjpbNDU2NzQ0MTY5LDE4OTMwNjk2NjcsLTkxOD
 IyMzM1MywtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4
 NzU4LDExMDc3MzQ0NjgsLTEyNTQzMjIwNTgsLTk2MzU0MTMwMC
 wyMDMwMTAxNjg4LDEwNTIxMDIyNDYsMTQ3MjcwMDUwOSw2MzIz
