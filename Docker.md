@@ -78,13 +78,15 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 	`docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 google/cadvisor:latest`
 
 2. Danach kann durch Eingabe im Browser `localhost:8080` auf das Monitoring zugreifen.
-Bild
+
+	
+	![](https://perrone.myqnapcloud.com:450/share.cgi/CadvisorSchmdili.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=CadvisorSchmdili.PNG&openfolder=normal&ep=)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMT
-gyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDky
-MTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0ND
-Y4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAsMjAzMDEwMTY4OCwx
-MDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMzI3NDQzLDEwOTA5Mz
-I4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2NiwtMTczMjUwNTg4
-MiwtMTU3Nzk3NTQ2MV19
+eyJoaXN0b3J5IjpbLTIwNzg1MzIzNzgsMjA5MTIwMDg4OCwtMT
+Y2MTAxOTY2NCwtMTgyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgy
+MjMzNTMsLTIwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5OD
+c1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4LC05NjM1NDEzMDAs
+MjAzMDEwMTY4OCwxMDUyMTAyMjQ2LDE0NzI3MDA1MDksNjMyMz
+I3NDQzLDEwOTA5MzI4ODEsLTExMTkzMzQzNTgsLTc5NzI1NDA2
+NiwtMTczMjUwNTg4Ml19
 -->
