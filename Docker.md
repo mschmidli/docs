@@ -89,11 +89,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 Um das Testing durchzuführen haben ich verschiedene Testcases erstellt und nach diesen Fällen die Tests druchgeführt.  
 
-Die Test Cases habe i
-
+Die Testcases habe ich nach folgendem Schema gestaltet:
 |  **Test** |  _Erwartete Ausg._  | Tatächliche Ausg.
 
-|  **Docker Build**  |  _Docker wird per  `docker build -t Docker_NAME:Version . erstellt`_  | Container ist nach CMD vorhanden
+
+|  **Docker Build**  |  _Docker-Image wird per  `docker build -t Docker_NAME:Version . erstellt`_  | Container ist nach CMD vorhanden
 
 |  **Docker Verbinden** |  _Docker Container wird per  `docker run -ti -p 80:80 NAME /bin/bash`  gestartet_  | Verbindung erfolgreich
 
@@ -101,11 +101,11 @@ Die Test Cases habe i
 
 |  **UFW Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjU5MjAxMiwtMjQ4Nzg5NzE4LC0yMD
-Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
-NjY0LC0xODI1NjExOTY0LDE4OTMwNjk2NjcsLTkxODIyMzM1My
-wtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4NzU4LDEx
-MDc3MzQ0NjgsLTEyNTQzMjIwNTgsLTk2MzU0MTMwMCwyMDMwMT
-AxNjg4LDEwNTIxMDIyNDYsMTQ3MjcwMDUwOSw2MzIzMjc0NDMs
-MTA5MDkzMjg4MV19
+eyJoaXN0b3J5IjpbNjcxNDM4NjY4LC0yNDg3ODk3MTgsLTIwNj
+g5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2
+NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC
+0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEw
+NzczNDQ2OCwtMTI1NDMyMjA1OCwtOTYzNTQxMzAwLDIwMzAxMD
+E2ODgsMTA1MjEwMjI0NiwxNDcyNzAwNTA5LDYzMjMyNzQ0Mywx
+MDkwOTMyODgxXX0=
 -->
