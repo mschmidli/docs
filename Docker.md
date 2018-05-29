@@ -88,7 +88,8 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 2. Für den Erstellen des Users habe ich folgenden Code verwendet:
 	`RUN groupadd -r Docker_Group && useradd -r -g Docker_Group schmidlitest`
 	
-3. Der Container kann jetzt mit dem Befehl  `docker run -ti --ubuntufinal /bin/bash`
+3. Der Container kann jetzt mit dem Befehl  `docker run -ti --ubuntufinal /bin/bash` und danach um noch auf den erstellten Benuter wechseln mit `su schmidlitest`
+![]()
 ## Testing
 
 Um das Testing durchzuführen haben ich verschiedene Testcases erstellt und nach diesen Fällen die Tests druchgeführt.  
@@ -107,11 +108,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTE0Nzk2MSwyMDEyMzM5NjU4LC04OT
-ExMzQxMjgsMTcwNzM2MjE1MSwxNTA5NzA1NTMsLTE2Mzg5ODI4
-MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4Nyw0MTE5NTk4MzIsMj
-A5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgyNTYxMTk2NCwxODkz
-MDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMTY0MjEsLTE5NTE1OD
-A1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0xMjU0MzIyMDU4
-LC05NjM1NDEzMDBdfQ==
+eyJoaXN0b3J5IjpbMTc5MTY0Njk3OSwxOTk1MTQ3OTYxLDIwMT
+IzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUxLDE1MDk3MDU1
+MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMDY4OTI0OTg3LD
+QxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5NjY0LC0xODI1
+NjExOTY0LDE4OTMwNjk2NjcsLTkxODIyMzM1MywtMjA0OTIxNj
+QyMSwtMTk1MTU4MDU4MywxMTM5ODk4NzU4LDExMDc3MzQ0Njgs
+LTEyNTQzMjIwNThdfQ==
 -->
