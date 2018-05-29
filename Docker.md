@@ -93,7 +93,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 	![](https://perrone.myqnapcloud.com:450/share.cgi/dockerBenutzerSchmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=dockerBenutzerSchmidli.PNG&openfolder=normal&ep=)
 
 ### Firewall installieren/aktivieren
-1. Um die Firewall zu installieren habe ich 
+1. Um die Firewall zu installieren habe ich den Befehl ``
 
 ## Testing
 
@@ -113,7 +113,7 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjg3NTM4Niw5NjQ4MTUwMiwxOTk1MT
+eyJoaXN0b3J5IjpbLTk2MTM2NTUwNyw5NjQ4MTUwMiwxOTk1MT
 Q3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUx
 LDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMD
 Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
