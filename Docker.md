@@ -88,7 +88,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 2. Für den Erstellen des Users habe ich folgenden Code verwendet:
 	`RUN groupadd -r Docker_Group && useradd -r -g Docker_Group schmidlitest`
 	
-3. 
+3. Der Container kann jetzt mit dem Befehl 
 ## Testing
 
 Um das Testing durchzuführen haben ich verschiedene Testcases erstellt und nach diesen Fällen die Tests druchgeführt.  
@@ -107,7 +107,7 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE5MjQwMjcsMjAxMjMzOTY1OCwtOD
+eyJoaXN0b3J5IjpbLTE4MDQzNTY4MTYsMjAxMjMzOTY1OCwtOD
 kxMTM0MTI4LDE3MDczNjIxNTEsMTUwOTcwNTUzLC0xNjM4OTgy
 ODM1LC0yNDg3ODk3MTgsLTIwNjg5MjQ5ODcsNDExOTU5ODMyLD
 IwOTEyMDA4ODgsLTE2NjEwMTk2NjQsLTE4MjU2MTE5NjQsMTg5
