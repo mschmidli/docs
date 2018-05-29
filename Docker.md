@@ -95,7 +95,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 ### Firewall installieren/aktivieren
 1. Um die Firewall zu installieren habe ich den Befehl `RUN apt-get -y install ufw` im Dockerfile eingebetet.
 
-2. Wie ich nach langer Recherche herausgefunden habe, kann die Firewall Konfiguration nicht im gleichen Do
+2. Wie ich nach langer Recherche herausgefunden habe, kann die Firewall Konfiguration nicht im gleichen Dockerfile eingetragen werden. Daher habe ich am ende des Dockerfile einen verweis auf ein seperates File, welches die Konfiguration be
 ``
 `ADD ufw.sh .`
 `RUN chmod +x ./ufw.sh`
@@ -120,11 +120,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzc5MDg5LDk2NDgxNTAyLDE5OTUxND
-c5NjEsMjAxMjMzOTY1OCwtODkxMTM0MTI4LDE3MDczNjIxNTEs
-MTUwOTcwNTUzLC0xNjM4OTgyODM1LC0yNDg3ODk3MTgsLTIwNj
-g5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2
-NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC
-0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEw
-NzczNDQ2OF19
+eyJoaXN0b3J5IjpbLTU1MjM1MDMxMiw5NjQ4MTUwMiwxOTk1MT
+Q3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUx
+LDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMD
+Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
+NjY0LC0xODI1NjExOTY0LDE4OTMwNjk2NjcsLTkxODIyMzM1My
+wtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4NzU4LDEx
+MDc3MzQ0NjhdfQ==
 -->
