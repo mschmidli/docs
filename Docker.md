@@ -101,11 +101,11 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 `RUN chmod +x ./ufw.sh`
 
 Die Konfiguration in dem anderem File sieht wie folgt aus:
-`
-`
-``
-``
-``
+`#!/bin/bash`
+`ufw -f enable`
+`ufw allow 80/tcp`
+`ufw reload`
+
 
 
 
@@ -127,7 +127,7 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTEzODQyNCw5NjQ4MTUwMiwxOTk1MT
+eyJoaXN0b3J5IjpbLTgyMjQ2OTQzMSw5NjQ4MTUwMiwxOTk1MT
 Q3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUx
 LDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMD
 Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
