@@ -83,8 +83,8 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 
 ### User erstellen
-1. Für den User erstellen, habe ich eine dockerfile erstellt welches auf der Version `Frome`
-2. 
+1. Für den User erstellen, habe ich eine dockerfile erstellt welches auf der Version `FROM ubuntu:14.04` läuft erstellt.
+2. Für den Erstellen des Users habe ich folgenden Code verwednet
 
 ## Testing
 
@@ -104,11 +104,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MTA1NjM3LDIwMTIzMzk2NTgsLTg5MT
-EzNDEyOCwxNzA3MzYyMTUxLDE1MDk3MDU1MywtMTYzODk4Mjgz
-NSwtMjQ4Nzg5NzE4LC0yMDY4OTI0OTg3LDQxMTk1OTgzMiwyMD
-kxMjAwODg4LC0xNjYxMDE5NjY0LC0xODI1NjExOTY0LDE4OTMw
-Njk2NjcsLTkxODIyMzM1MywtMjA0OTIxNjQyMSwtMTk1MTU4MD
-U4MywxMTM5ODk4NzU4LDExMDc3MzQ0NjgsLTEyNTQzMjIwNTgs
-LTk2MzU0MTMwMF19
+eyJoaXN0b3J5IjpbLTEyMjEyMjIxNzIsMjAxMjMzOTY1OCwtOD
+kxMTM0MTI4LDE3MDczNjIxNTEsMTUwOTcwNTUzLC0xNjM4OTgy
+ODM1LC0yNDg3ODk3MTgsLTIwNjg5MjQ5ODcsNDExOTU5ODMyLD
+IwOTEyMDA4ODgsLTE2NjEwMTk2NjQsLTE4MjU2MTE5NjQsMTg5
+MzA2OTY2NywtOTE4MjIzMzUzLC0yMDQ5MjE2NDIxLC0xOTUxNT
+gwNTgzLDExMzk4OTg3NTgsMTEwNzczNDQ2OCwtMTI1NDMyMjA1
+OCwtOTYzNTQxMzAwXX0=
 -->
