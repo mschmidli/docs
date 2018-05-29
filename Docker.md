@@ -101,6 +101,10 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 `RUN chmod +x ./ufw.sh`
 
 Die Konfiguration in dem anderem File sieht wie folgt aus:
+`
+`
+``
+``
 ``
 
 
@@ -123,11 +127,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyNjc0MjA0LDk2NDgxNTAyLDE5OTUxND
-c5NjEsMjAxMjMzOTY1OCwtODkxMTM0MTI4LDE3MDczNjIxNTEs
-MTUwOTcwNTUzLC0xNjM4OTgyODM1LC0yNDg3ODk3MTgsLTIwNj
-g5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2
-NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC
-0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEw
-NzczNDQ2OF19
+eyJoaXN0b3J5IjpbMTU4NTEzODQyNCw5NjQ4MTUwMiwxOTk1MT
+Q3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUx
+LDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMD
+Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
+NjY0LC0xODI1NjExOTY0LDE4OTMwNjk2NjcsLTkxODIyMzM1My
+wtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5ODk4NzU4LDEx
+MDc3MzQ0NjhdfQ==
 -->
