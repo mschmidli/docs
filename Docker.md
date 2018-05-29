@@ -106,7 +106,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 `ufw allow 80/tcp`
 `ufw reload`
 
-3. 
+3. Zur über Prüfung, kann man im Dockerfile 
 
 
 ## Testing
@@ -127,7 +127,7 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTY2OTg5Miw5NjQ4MTUwMiwxOTk1MT
+eyJoaXN0b3J5IjpbLTkzMzk0MzI0OCw5NjQ4MTUwMiwxOTk1MT
 Q3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwxNzA3MzYyMTUx
 LDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nzg5NzE4LC0yMD
 Y4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4LC0xNjYxMDE5
