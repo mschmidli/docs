@@ -88,9 +88,13 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 2. Für den Erstellen des Users habe ich folgenden Code verwendet:
 	`RUN groupadd -r Docker_Group && useradd -r -g Docker_Group schmidlitest`
 	
-3. Der Container kann jetzt mit dem Befehl  `docker run -ti --ubuntufinal /bin/bash` und um danach noch auf den erstellten Benutzer wechseln mit `su schmidlitest`
+3. Der Container kann jetzt mit dem Befehl  `docker run -ti --ubuntufinal /bin/bash` und um danach noch auf den erstellten Benutzer wechseln mit `su schmidlitest`.
 
 	![](https://perrone.myqnapcloud.com:450/share.cgi/dockerBenutzerSchmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=dockerBenutzerSchmidli.PNG&openfolder=normal&ep=)
+
+### Firewall installieren/aktivieren
+
+
 ## Testing
 
 Um das Testing durchzuführen haben ich verschiedene Testcases erstellt und nach diesen Fällen die Tests druchgeführt.  
@@ -109,11 +113,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcyNTQ3MzIsMTk5NTE0Nzk2MSwyMD
-EyMzM5NjU4LC04OTExMzQxMjgsMTcwNzM2MjE1MSwxNTA5NzA1
-NTMsLTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4Ny
-w0MTE5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgy
-NTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMT
-Y0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4
-LC0xMjU0MzIyMDU4XX0=
+eyJoaXN0b3J5IjpbOTY0ODE1MDIsMTk5NTE0Nzk2MSwyMDEyMz
+M5NjU4LC04OTExMzQxMjgsMTcwNzM2MjE1MSwxNTA5NzA1NTMs
+LTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4Nyw0MT
+E5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgyNTYx
+MTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMTY0Mj
+EsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3NzM0NDY4LC0x
+MjU0MzIyMDU4XX0=
 -->
