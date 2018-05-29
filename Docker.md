@@ -108,7 +108,7 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 
 3. Zur über Prüfung, kann man mit dem folgendem Befehl den Firewall Status überprüfen `sudo ufw status`.
 
-![](https://github.com/GoodPotatoe/Potatoe/blob/master/Dokumentation/ufw.jpg)
+![](https://perrone.myqnapcloud.com:450/share.cgi/ufwStatusSchmidli.PNG?ssid=02YbC2K&fid=02YbC2K&path=%2F&filename=ufwStatusSchmidli.PNG&openfolder=normal&ep=)
 
 ## Testing
 
@@ -128,11 +128,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjc4Njg1MSw2OTM1NTIxNSw5NjQ4MT
-UwMiwxOTk1MTQ3OTYxLDIwMTIzMzk2NTgsLTg5MTEzNDEyOCwx
-NzA3MzYyMTUxLDE1MDk3MDU1MywtMTYzODk4MjgzNSwtMjQ4Nz
-g5NzE4LC0yMDY4OTI0OTg3LDQxMTk1OTgzMiwyMDkxMjAwODg4
-LC0xNjYxMDE5NjY0LC0xODI1NjExOTY0LDE4OTMwNjk2NjcsLT
-kxODIyMzM1MywtMjA0OTIxNjQyMSwtMTk1MTU4MDU4MywxMTM5
-ODk4NzU4XX0=
+eyJoaXN0b3J5IjpbMTEwMjg5OTg2LDEzMTI3ODY4NTEsNjkzNT
+UyMTUsOTY0ODE1MDIsMTk5NTE0Nzk2MSwyMDEyMzM5NjU4LC04
+OTExMzQxMjgsMTcwNzM2MjE1MSwxNTA5NzA1NTMsLTE2Mzg5OD
+I4MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4Nyw0MTE5NTk4MzIs
+MjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMTgyNTYxMTk2NCwxOD
+kzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDkyMTY0MjEsLTE5NTE1
+ODA1ODNdfQ==
 -->
