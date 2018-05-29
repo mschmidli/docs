@@ -106,7 +106,10 @@ Ich habe mich nun an die Erstellung eines eigenen Images gemacht.
 `ufw allow 80/tcp`
 `ufw reload`
 
-3. Zur über Prüfung, kann man mit dem folgendem Befehl den Firewall Status überprüfen .
+3. Zur über Prüfung, kann man mit dem folgendem Befehl den Firewall Status überprüfen `sudo ufw status`.
+
+![]()
+
 4. 
 
 
@@ -128,11 +131,11 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **User erstellen** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5Mjg5Nzg0LDk2NDgxNTAyLDE5OTUxND
-c5NjEsMjAxMjMzOTY1OCwtODkxMTM0MTI4LDE3MDczNjIxNTEs
-MTUwOTcwNTUzLC0xNjM4OTgyODM1LC0yNDg3ODk3MTgsLTIwNj
-g5MjQ5ODcsNDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2
-NjQsLTE4MjU2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC
-0yMDQ5MjE2NDIxLC0xOTUxNTgwNTgzLDExMzk4OTg3NTgsMTEw
-NzczNDQ2OF19
+eyJoaXN0b3J5IjpbNjkzNTUyMTUsOTY0ODE1MDIsMTk5NTE0Nz
+k2MSwyMDEyMzM5NjU4LC04OTExMzQxMjgsMTcwNzM2MjE1MSwx
+NTA5NzA1NTMsLTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMjA2OD
+kyNDk4Nyw0MTE5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2
+NCwtMTgyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLT
+IwNDkyMTY0MjEsLTE5NTE1ODA1ODMsMTEzOTg5ODc1OCwxMTA3
+NzM0NDY4XX0=
 -->
