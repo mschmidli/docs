@@ -126,15 +126,15 @@ Die Testcases habe ich nach folgendem Schema gestaltet:
 
 |  **cAdvisor** | *Man kann auf "Localhost:8080"_und somit auf das cAdvisor Monitoring zugreifen._  | Nach Eingabe von "Localhost:8080" erscheint das Monitoring und man kann auch die Einzelnen Container-Usage anschauen.
 
-|  **User Erstellen** |  _Es kann mittels Docker-Befehl mit dem Erstellten Benut_  | Die Firewall wird installiert
+|  **User Erstellen** |  _Es kann mittels Docker-Befehl mit dem Erstellten Benutzer angemeldet werden_  | Nach Eingabe des Befehls meldet sich der Benutzer am Container an
 
 |  **Firewall** |  _Die Firewall wird installiert_  | Die Firewall wird installiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTc0MTY4LDExMDI4OTk4NiwxMzEyNz
-g2ODUxLDY5MzU1MjE1LDk2NDgxNTAyLDE5OTUxNDc5NjEsMjAx
-MjMzOTY1OCwtODkxMTM0MTI4LDE3MDczNjIxNTEsMTUwOTcwNT
-UzLC0xNjM4OTgyODM1LC0yNDg3ODk3MTgsLTIwNjg5MjQ5ODcs
-NDExOTU5ODMyLDIwOTEyMDA4ODgsLTE2NjEwMTk2NjQsLTE4Mj
-U2MTE5NjQsMTg5MzA2OTY2NywtOTE4MjIzMzUzLC0yMDQ5MjE2
-NDIxXX0=
+eyJoaXN0b3J5IjpbLTE4MzM4MzAxNzMsMTEwMjg5OTg2LDEzMT
+I3ODY4NTEsNjkzNTUyMTUsOTY0ODE1MDIsMTk5NTE0Nzk2MSwy
+MDEyMzM5NjU4LC04OTExMzQxMjgsMTcwNzM2MjE1MSwxNTA5Nz
+A1NTMsLTE2Mzg5ODI4MzUsLTI0ODc4OTcxOCwtMjA2ODkyNDk4
+Nyw0MTE5NTk4MzIsMjA5MTIwMDg4OCwtMTY2MTAxOTY2NCwtMT
+gyNTYxMTk2NCwxODkzMDY5NjY3LC05MTgyMjMzNTMsLTIwNDky
+MTY0MjFdfQ==
 -->
